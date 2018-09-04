@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.dfab6903-eee7-49d0-b550-b721476bd5a2",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-nasashow-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "363a0e186826bc2cc529578cbed9cc73"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "d25c61f47b52243b2507110aed234432"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:317267910704:function:ask-custom-nasashow-default",
+            "functionName": "arn:aws:lambda:us-east-1:317267910704:function:ask-custom-nasashow-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "7d8d00e3-e546-4d87-ae10-348051f4cb2b"
+          }
+        ]
+      }
+    }
+  }
+}
